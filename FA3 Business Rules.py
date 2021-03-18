@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import Error
-#TEST123
+
 def connect():
     """This function is the connection with the postgres db"""
 
