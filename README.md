@@ -7,3 +7,4 @@ Voor de collaborative business rule wordt er één nieuwe tabel aangemaakt waar 
 Voor de content business rule zijn er meerdere tafels aangemaakt. Dat is omdat de aanbevelingen in deze regel gebasseerd zijn op doelgroep(elke doelgroep een aparte tafel). Ben je bijvoorbeeld aan het kijken naar een babyproduct, dan krijg je als aanbeveling: "Misschien geinteresseerd in dit product?", waar dan een ander babyproduct verschijnt. (Deze aanbeveling wordt gemaakt d.m.v een filtering onder de doelgroep en de categorie die bekeken wordt). De voorlopige aanbeveling wordt gedaan met behulp van een query, die per doelgroep vijf producten eruit haalt als aanbeveling.
 
 Om de code te testen dient er alleen in de functie "connect()" de eigen gegevens van de postgres database te worden ingevuld.
+![image](https://user-images.githubusercontent.com/74369553/111780238-6a5ffb80-88b7-11eb-9d61-20d4e87467f2.png)
